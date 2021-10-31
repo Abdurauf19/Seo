@@ -1,0 +1,100 @@
+@media (max-width: 1440px) {} 
+@media (max-width: 1366px) {} 
+@media (max-width: 1320px) {} 
+@media (max-width: 1290px) {} 
+@media (max-width: 1140px) {} 
+@media (max-width: 1024px) {} 
+
+@media (max-width: 992px) {
+
+
+    .header__list {
+        display: none;
+    }
+    .nav__menu-open {
+        display: flex;
+    }
+    .Analysis__card, .Design__card, .Marketing__card {
+        gap: 41px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Studies__title-con {
+        flex-direction: column;
+    }
+    .brand__container {
+        flex-direction: column;
+    }
+    .team__container  {
+        flex-direction: column;
+        align-items: center;
+        gap: 41px;
+    }
+    .Studies__cards {
+        flex-direction: column;
+    }
+    .slider__container {
+        flex-direction: column;
+        gap: 35px;
+    }
+    .brand__img {
+        padding-top: 41px;
+    }
+    .team__content  {
+        padding-left: 35px;
+    }
+
+    .footer__container{
+        place-items: center;
+    padding-bottom: 92px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 41px;
+    }
+    .footer__container * {
+        padding: 0;
+    }
+    .box__container {
+        flex-wrap: wrap;
+    }
+} 
+
+
+@media (max-width: 768px) {} 
+@media (max-width: 736px) {} 
+@media (max-width: 734px) {
+    .brand__images {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+} 
+@media (max-width: 684px) {
+    .header__title {
+        font-size: 27px;
+    }
+    .header__txt {
+        font-size: 15px;
+    }
+    .cloud__email, .cloud__num {
+        display: flex;
+    }
+    .menu__logo {
+        display: none;
+    }
+.nav__menu-list {
+    gap: 3px;
+}
+    .nav__menu-link {
+        font-size: 11px;
+    }
+} 
+
+@media (max-width: 667px) {} 
+
+@media (max-width: 576px) {} 
+@media (max-width: 414px) {} 
+@media (max-width: 375px) {} 
+@media (max-width: 360px) {} 
+@media (max-width: 320px) {} 
